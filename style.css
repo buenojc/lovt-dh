@@ -43,4 +43,47 @@ header button img{
     height: 28px;
 }
 
+main{
+    width: 70%;
+    margin: 0 auto;
+}
 
+/* SLIDER */
+
+.slider{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.slider > img{
+    width: 100%;
+}
+
+.slider span{
+    position: absolute;
+    top: 50%;
+    width: 64px;
+    height: 64px;
+    background-color:rgba(141, 141, 141, 0.62);
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.slider span:hover{
+    background-color:rgba(141, 141, 141, 1);
+}
+
+.slider .flecha-esquerda{
+    left: 60px;
+}
+
+.slider .flecha-direita{
+    right: 60px;
+}
