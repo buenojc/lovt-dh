@@ -1,43 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lovt | DH</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div class="logo-wrapper">
-            <a href="/">
-                <img src="./assets/logo.svg" alt="Logo Lovt" />
-            </a>
-            <div class="text">
-                <p>You Love,</p>
-                <p>your loft!</p>
-            </div>
+      <div class="logo-wrapper">
+        <a href="/">
+          <img src="./assets/logo.svg" alt="Logo Lovt" />
+        </a>
+        <div class="text">
+          <p>You Love,</p>
+          <p>your loft!</p>
         </div>
-        <button>
-            <img src="./assets/menu.svg" alt="Menu" />
-        </button>
+      </div>
+      <button>
+        <img src="./assets/menu.svg" alt="Menu" />
+      </button>
     </header>
 
     <main>
-        <div class="slider">
-            <span class="flecha-esquerda">
-               <img src="./assets/arrow-left.svg" alt="Voltar" /> 
-            </span>
-            <img src="./assets/img-slider.jpg" alt="Imagem do Banner" />
-            <span class="flecha-direita">
-                <img src="./assets/arrow-right.svg" alt="Voltar" /> 
-             </span>
-        </div>
-    </main>
-    
+      <section class="slider">
+        <span class="flecha-esquerda">
+          <img src="./assets/arrow-left.svg" alt="Voltar" />
+        </span>
+        <img src="./assets/img-slider.jpg" alt="Imagem do Banner" />
+        <span class="flecha-direita">
+          <img src="./assets/arrow-right.svg" alt="Voltar" />
+        </span>
+      </section>
 
-</body>
+      <section class="vitrine">
+        <div class="card">
+          <div class="img-container">
+            <img src="/assets/img-card1.jpg" alt="Apartamento 1" />
+          </div>
+          <div class="informacao-container">
+            <div class="resumo">
+              <p>$ 1,200</p>
+              <span class="new">New</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              hic alias autem, earum fugiat at, mollitia dolores laudantium
+              reprehenderit asperiores perspiciatis aliquam libero numquam
+              corporis enim sit ducimus eaque. Perspiciatis?
+            </p>
+          </div>
+        </div>
+        <div class="card">
+            <div class="img-container">
+              <img src="/assets/img-card2.jpg" alt="Apartamento 1" />
+            </div>
+            <div class="informacao-container">
+              <div class="resumo">
+                <p>$ 2,000</p>
+                <span class="sale">Sale</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                hic alias autem, earum fugiat at, mollitia dolores laudantium
+                reprehenderit asperiores perspiciatis aliquam libero numquam
+                corporis enim sit ducimus eaque. Perspiciatis?
+              </p>
+            </div>
+          </div>
+      </section>
+    </main>
+  </body>
 </html>
