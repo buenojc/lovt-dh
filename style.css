@@ -101,6 +101,8 @@ section.vitrine{
 .card{
     width: 50%;
     background-color: #EEEEEE;
+    display: block;
+    text-decoration: none;
     font-family: 'Ropa Sans', sans-serif;
 }
 
@@ -151,3 +153,6 @@ section.vitrine{
     text-align: justify;
     line-height: 1.2rem;
 }
+
+
+/*  ESTILOS */
